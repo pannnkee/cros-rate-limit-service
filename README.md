@@ -1,6 +1,4 @@
-风控限流服务
-
-# 风控限流服务（cros-rate-limit-service）
+# cros限流服务（cros-rate-limit-service）
 
 ## 目标：对并发控制和请求进行限速来保护系统
 - 接入方式：通过http方式接入需要限流的服务
@@ -13,5 +11,10 @@
 - 框架：gin
 - 数据库：mongoDB、mysql
 - 算法：令牌桶、漏桶、计数器、滑动窗口
+
+## 支持 HTTP 接口执行
+- 获取限流结果
+
+[接口文档详情](docs/api.md)
 
 
